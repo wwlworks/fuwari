@@ -45,8 +45,8 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
     LinkPreset.About,
     {
-      name: '跟踪',
-      url: 'https://stats.uptimerobot.com/4KJf6mJf4L',     // Internal links should not include the base path, as it is automatically added
+      name: 'trace',
+      url: "https://stats.uptimerobot.com/4KJf6mJf4L",     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
     {
