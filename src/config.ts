@@ -50,7 +50,7 @@ export const navBarConfig: NavBarConfig = {
 			external: true, // Show an external link icon and will open in a new tab
 		},
 		{
-			name: "跟踪(还在升级)"
+			name: "跟踪(还在升级)",
 			url: "https://stats.uptimerobot.com/4KJf6mJf4L",
 			external: true,
 		},	
