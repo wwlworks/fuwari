@@ -41,6 +41,9 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
   links: [
+		LinkPreset.Home,
+		LinkPreset.Archive,
+		LinkPreset.About,
     {
       name: 'trace',
       url: 'https://stats.uptimerobot.com/4KJf6mJf4L',     // Internal links should not include the base path, as it is automatically added
