@@ -41,17 +41,14 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
   links: [
-    LinkPreset.Home,
-    LinkPreset.Archive,
-    LinkPreset.About,
     {
       name: 'trace',
-      url: "https://stats.uptimerobot.com/4KJf6mJf4L",     // Internal links should not include the base path, as it is automatically added
+      url: 'https://stats.uptimerobot.com/4KJf6mJf4L',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
+      url: 'https://github.com/wwlworks',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
   ],
